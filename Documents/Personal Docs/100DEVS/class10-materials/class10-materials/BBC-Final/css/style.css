@@ -1,0 +1,60 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color: black;
+  
+}
+#BBCLogo{
+  float: left;
+} 
+form{
+  float: inline-end;
+}  
+li{
+  display: inline-block;
+  width: 85px; 
+  font-size: 20px;
+  color: white;
+}
+UL{
+  text-align: center;
+}
+form{
+  float: right;
+} 
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
